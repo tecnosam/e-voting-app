@@ -1,6 +1,6 @@
 from flask_restful import fields, marshal_with
-from pollaris_ import db
-from pollaris_.models import AspirantModel, PositionModel
+from . import db
+from .models import AspirantModel, PositionModel
 
 aspirant_field = {
 	"id": fields.Integer,

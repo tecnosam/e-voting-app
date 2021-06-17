@@ -1,4 +1,4 @@
-from pollaris_ import db
+from . import db
 from flask_restful import fields, marshal_with
 
 class PositionModel(db.Model):

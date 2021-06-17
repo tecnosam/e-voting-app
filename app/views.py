@@ -1,6 +1,6 @@
-from pollaris_ import app, socket
+from . import app, socket
 from flask import render_template, flash, request, redirect, url_for
-from pollaris_ import controllers as ctr
+from . import controllers as ctr
 
 
 @app.route("/aspirants", methods = ['GET', 'POST', 'DELETE'])
