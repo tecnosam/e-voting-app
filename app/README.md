@@ -4,6 +4,7 @@ HOW TO RUN
 
 git clone https://github.com/tecnosam/e-voting-app
 cd e-voting-app
+pip install -r requirements.txt
 python -m app
 
 ROUTES
